@@ -1,3 +1,6 @@
+(ENGLISH) - (TURKISH)
+----------------------
+
 (ENGLISH)
 
 Getmobil.com Purchase Flow Test Automation
@@ -94,6 +97,7 @@ Scenario3:  Cart Operations
 
 If you have any questions or feedback, feel free to reach out! 
 
+---------------------
 
 (TÜRKÇE)
 
