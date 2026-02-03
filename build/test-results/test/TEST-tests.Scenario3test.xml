@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.Scenario3test" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-02-03T17:17:49" hostname="192.168.1.10" time="22.487">
+  <properties/>
+  <testcase name="Scenario3Test" classname="tests.Scenario3test" time="22.487"/>
+  <system-out><![CDATA[Title: Apple iPhone 14 Gece Yarısı Siyahı 512 GB Price: ₺50.399
+Title: Apple iPhone 15 Pembe 256 GB Price: ₺58.349
+Title: Apple iPhone 16 Deniz Mavisi 128 GB Price: ₺66.549
+Title: Apple iPhone 14 Price: 50.399,00 ₺
+Title: Apple iPhone 15 Price: 58.349,00 ₺
+Title: Apple iPhone 16 Price: 66.549,00 ₺
+]]></system-out>
+  <system-err><![CDATA[Şub 03, 2026 8:17:48 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Şub 03, 2026 8:17:48 ÖS org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>
