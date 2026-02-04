@@ -1,5 +1,8 @@
-(ENGLISH)
+GETMOBIL PROJECT (ENGLISH) and (TURKISH)
+--------------------------------------
 
+(ENGLISH)
+--------
 Getmobil.com Purchase Flow Test Automation
 
 This project is a test automation framework developed to validate the purchase flow of Getmobil.com.  
@@ -96,6 +99,7 @@ If you have any questions or feedback, feel free to reach out!
 
 
 (TÜRKÇE)
+------------
 
 Getmobil.com Satın Alma Süreci Test Otomasyonu
 
