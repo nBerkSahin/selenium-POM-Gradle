@@ -13,7 +13,6 @@ public class CartPage {
     private WebDriver driver;
     private WebDriverWait wait;
 
-
     public CartPage(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(3));
@@ -23,6 +22,7 @@ public class CartPage {
     private By productPrices = By.xpath("//div[@data-testid='product-price']");
     private By removeProductButton = By.cssSelector("[data-testid='quantity-decrease-button']");
     private By cartTitles = By.xpath("//div[@data-testid='product-title'][0]");
+    private By deleteItemTitle = By.cssSelector("span.delete-item-title[data-testid='delete-item-title']");
 
     public List<String> getProductTitles() {
         wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(productTitles));
@@ -47,9 +47,6 @@ public class CartPage {
     public void clickRemoveProduct() {
         wait.until(ExpectedConditions.elementToBeClickable(removeProductButton)).click();
     }
-
-
-    private By deleteItemTitle = By.cssSelector("span.delete-item-title[data-testid='delete-item-title']");
 
     public String getDeleteModalTitle() {
 

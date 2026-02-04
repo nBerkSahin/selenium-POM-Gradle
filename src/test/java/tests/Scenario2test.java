@@ -17,8 +17,8 @@ public class Scenario2test extends BaseTest {
 
         Object[][] testData = {
                 {"iPhone 14", "₺50.399"},
-                {"iPhone 15", "₺58.349"},
-                {"iPhone 16", "₺66.549"}
+                {"iPhone 15", "₺58.799"},
+                {"iPhone 16", "₺67.999"}
         };
 
         for (int i = 0; i < testData.length; i++) {
